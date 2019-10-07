@@ -34,6 +34,7 @@ router.get('/:id', (req, res) => {
       // remember to handle the error
       res.status(500).json(error);
     });
+    
 });
 
 router.post('/', (req, res) => {
